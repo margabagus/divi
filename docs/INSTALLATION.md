@@ -8,11 +8,15 @@ Add this code to your Divi child theme's functions.php:
 ```php
 function enqueue_carousel_assets() {
     wp_enqueue_style('carousel-service', 
-        'https://cdn.jsdelivr.net/gh/margabagus/carousel-wordpress@v1.0.0/dist/css/carousel-service.min.css');
+        'https://cdn.jsdelivr.net/gh/margabagus/divi@carousel-slide/dist/css/carousel-service.min.css'
+    );
     
     wp_enqueue_script('carousel-service', 
-        'https://cdn.jsdelivr.net/gh/margabagus/carousel-wordpress@v1.0.0/dist/js/carousel-service.min.js', 
-        array(), '1.0.0', true);
+        'https://cdn.jsdelivr.net/gh/margabagus/divi@carousel-slide/dist/js/carousel-service.min.js', 
+        array(), 
+        null, 
+        true
+    );
 }
 add_action('wp_enqueue_scripts', 'enqueue_carousel_assets');
 ```

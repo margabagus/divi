@@ -12,8 +12,8 @@ A responsive and customizable carousel component for WordPress websites, specifi
 ## Quick Start
 ```html
 <!-- Using CDN -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/margabagus/divi@v1.0.0/dist/css/carousel-service.min.css">
-<script src="https://cdn.jsdelivr.net/gh/margabagus/divi@v1.0.0/dist/js/carousel-service.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/margabagus/divi@carousel-slide/dist/css/carousel-service.min.css">
+<script src="https://cdn.jsdelivr.net/gh/margabagus/divi@carousel-slide/dist/js/carousel-service.min.js"></script>
 ```
 
 ## Documentation
